@@ -1,6 +1,6 @@
 # Health Insurance Cross-Sell Prediction
 
-<img src="https://github.com/wrferreira1003/health-insurance-cross-sell.pa04/blob/main/reports/figures/capa.jpg" width=70% height=40% title="Health-Insurance-Ranking" alt="project_cover_image"/>
+<img src="https://github.com/wrferreira1003/health-insurance-cross-sell.pa004/blob/main/reports/figures/capa.jpg" width=70% height=40% title="Health-Insurance-Ranking" alt="project_cover_image"/>
 
 Projeto de rankeamento de clientes interessados na aquisição de um seguro veicular.
 
@@ -122,19 +122,19 @@ Durante a análise exploratória de dados, foram gerados alguns insights para o 
 
 #### H1 - 50% dos clientes com mais de 40 anos aceitariam o seguro de carro.
 
-<img src="https://github.com/wrferreira1003/health-insurance-cross-sell.pa04/blob/main/reports/figures/H1.png?raw=true" alt="h1_validacao" title="Interesse vs Idade" align="center" height="380" class="center"/>
+<img src="https://github.com/wrferreira1003/health-insurance-cross-sell.pa004/blob/main/reports/figures/H1.png?raw=true" alt="h1_validacao" title="Interesse vs Idade" align="center" height="380" class="center"/>
 
 Hipótese Falsa, apenas 17.19% dos clientes acima de 40 anos aceitariam fazer um seguro de veiculos
 
 #### H2 - 20% dos Clientes que ja são assegurado aceitaria adquirir um novo seguro.
 
-<img src="https://github.com/wrferreira1003/health-insurance-cross-sell.pa04/blob/main/reports/figures/h2.png?raw=true" alt="h2_validacao" title="Interesse Vs Clientes que ja tem seguro" align="center" height="380" class="center"/>
+<img src="https://github.com/wrferreira1003/health-insurance-cross-sell.pa004/blob/main/reports/figures/h2.png?raw=true" alt="h2_validacao" title="Interesse Vs Clientes que ja tem seguro" align="center" height="380" class="center"/>
 
 Hipótese Falsa, apenas %0.09 dos clientes que ja tem seguro aceitaria um novo seguro.
 
 #### H3 - Acima de 20% dos Clientes com veiculo acima de 2 anos de idade teria interesse no seguro segundo a pesquisa.
 
-<img src="https://github.com/wrferreira1003/health-insurance-cross-sell.pa04/blob/main/reports/figures/h3.png?raw=true" alt="h3_validacao" title="Interesse Vs Clientes cujo o veiculo tem mais de 2 anos" align="center" height="380" class="center"/>
+<img src="https://github.com/wrferreira1003/health-insurance-cross-sell.pa004/blob/main/reports/figures/h3.png?raw=true" alt="h3_validacao" title="Interesse Vs Clientes cujo o veiculo tem mais de 2 anos" align="center" height="380" class="center"/>
 
 Hipotese Verdadeira, 29.21% dos clientes que teria veiculo com idade acima de 2 anos, teria interesse em um novo seguro veicular.
 
@@ -145,14 +145,14 @@ Na curva de ganho abaixo, são exibidos os 4 modelos com as melhores configuraç
 Curva de Ganhos Acumulados: Ordena por probabilidade a variavel de interesse (Comprar o seguro de automovel), cruza o percentual da base de clientes com o percentual de clientes propensos a comprar.
 Ex: 40% da base de clientes (x), ordenada pela probabilidade de compra (y), contem 80% de todos os interessados em seguro veicular.
 
-<img src="https://github.com/wrferreira1003/health-insurance-cross-sell.pa04/blob/main/reports/figures/ml.png?raw=true" alt="Curva de Ganho Todos os modelos" title="Curva de Ganhos Acumulados - Comparação dos modelos" align="center" height="380" class="center"/>
+<img src="https://github.com/wrferreira1003/health-insurance-cross-sell.pa004/blob/main/reports/figures/ml.png?raw=true" alt="Curva de Ganho Todos os modelos" title="Curva de Ganhos Acumulados - Comparação dos modelos" align="center" height="380" class="center"/>
 
 Na curva Lift abaixo, os 4 modelos somando ao modelo perfeito e o baseline também são Exibidos.
 
 Lift Curve: Representa a diferença entre a curva de ganho e a lista aleatória. Resumindo, informa quanto o modelo é melhor que a lista aleatória.
 Ex: Abragendo 50% da lista ordenada, o modelo é 2,4 vezes melhore que a lista aleatória.
 
-<img src="https://github.com/wrferreira1003/health-insurance-cross-sell.pa04/blob/main/reports/figures/lift.png?raw=true" alt="Curva Lift" title="Lift Curve - Comparação dos modelos" align="center" height="380" class="center"/>
+<img src="https://github.com/wrferreira1003/health-insurance-cross-sell.pa004/blob/main/reports/figures/lift.png?raw=true" alt="Curva Lift" title="Lift Curve - Comparação dos modelos" align="center" height="380" class="center"/>
 
 O Melhor modelo portando foi o XGBoost Classifier, e por este motivo foi selecionado para deploy em produção.
 
@@ -192,7 +192,7 @@ As questões de negócios serão respondidas com base nas premissas acima.
 
 ### Qual a porcentagem de clientes interessados em seguro veicular, o call center conseguirá contatar fazendo 20 mil ligações?
 
-<img src="https://github.com/wrferreira1003/health-insurance-cross-sell.pa04/blob/main/reports/figures/20k.png?raw=true" alt="20k calls" title="Resultado com 20 mil ligações" align="center" height="380" class="center"/>
+<img src="https://github.com/wrferreira1003/health-insurance-cross-sell.pa004/blob/main/reports/figures/20k.png?raw=true" alt="20k calls" title="Resultado com 20 mil ligações" align="center" height="380" class="center"/>
 
 Para lista aleatória:
 - A equipe de vendas contata 26% dos interessados em seguro veicular: 2.451 clientes ( Ver ganho: Cruzamento da Linha preta x Verde)
@@ -208,7 +208,7 @@ Portando a receita estimada é 2,7 vezes maior que a lista aleatória: 132,57 mi
 
 ### Se a capacidade do call center aumentar para 40 mil ligações, qual a porcentagem de clientes interessados em adquirir um seguro veicular o call center conseguirá contatar?
 
-<img src="https://github.com/wrferreira1003/health-insurance-cross-sell.pa04/blob/main/reports/figures/40k.png?raw=true" alt="40k calls" title="Resultado com 40 mil ligações" align="center" height="380" class="center"/>
+<img src="https://github.com/wrferreira1003/health-insurance-cross-sell.pa004/blob/main/reports/figures/40k.png?raw=true" alt="40k calls" title="Resultado com 40 mil ligações" align="center" height="380" class="center"/>
 
 Para lista aleatória:
 - A equipe de vendas contata 52% dos interessados em seguro veicular: 4.902 clientes ( Ver ganho: Cruzamento da Linha preta x Verde)
@@ -224,7 +224,7 @@ Portando a receita estimada é 1,9 vezes maior que a lista aleatória: 139,00 mi
 
 ### Quantas ligações o call center precisa fazer para contatar 80% dos clientes interessados em adquirir um seguro veicular?
 
-<img src="https://github.com/wrferreira1003/health-insurance-cross-sell.pa04/blob/main/reports/figures/80k.png?raw=true" alt="80% dos interessados" title="Resultados com 80% dos interessados" align="center" height="380" class="center"/>
+<img src="https://github.com/wrferreira1003/health-insurance-cross-sell.pa004/blob/main/reports/figures/80k.png?raw=true" alt="80% dos interessados" title="Resultados com 80% dos interessados" align="center" height="380" class="center"/>
 
 Para lista aleatória:
 - A equipe de vendas precisa fazer 60.976 ligações para atingir 80% dos clientes da lista, então atingirá 80% dos interessados em seguro veicular.
