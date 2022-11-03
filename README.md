@@ -1,6 +1,6 @@
 # Health Insurance Cross-Sell Prediction
 
-<img src="https://github.com/wrferreira1003/-health-insurance-cross-sell.pa00404/tree/main/reports/figures/capa.jpg" width=70% height=40% title="Health-Insurance-Ranking" alt="project_cover_image"/>
+<img src="/reports/figures/capa.jpg" width=70% height=40% title="Health-Insurance-Ranking" alt="project_cover_image"/>
 
 Projeto de rankeamento de clientes interessados na aquisição de um seguro veicular.
 
